@@ -17,3 +17,13 @@ This PowerShell script performs incremental backups of specified source folders 
    ```powershell
    $sourceFolders = @("<!-- Insert source folders here -->")
    $destinationBase = "<!-- Insert destination path here -->"
+
+$sourceFolders = @("C:\Users\USER1\Desktop", "D:\", "F:\")
+$destinationBase = "Z:\Backups"
+
+## Save the file and run the script in PowerShell:
+- .\IncrementalBackup.ps1
+
+## Customization
+- Modify the $cutoffDate variable to change the retention period for old backups.
+- Adjust logging behavior by editing the $logFile section.
