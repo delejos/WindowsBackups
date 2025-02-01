@@ -1,4 +1,4 @@
-This was created as part of a learning exercise, as a source to use PowerShell. Yes, Robocopy exist and can do a much better job than this alternative. Again, it's just an exercise. 
+Disclaimer: This was created as part of a learning exercise, as a source to use PowerShell. Yes, Robocopy exist and can do a much better job than this alternative. Again, it's just an exercise. 
 # Incremental Backup Script
 
 This PowerShell script performs incremental backups of specified source folders to a destination path. It tracks changes using a manifest file and logs all operations for debugging and auditing purposes.
